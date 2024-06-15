@@ -1,10 +1,4 @@
-import 'package:exampleflutter/example/animated_gesture.dart';
-import 'package:exampleflutter/example/draggable.dart';
-import 'package:exampleflutter/example/flexible_layout.dart';
-import 'package:exampleflutter/example/iamge_widget.dart';
-import 'package:exampleflutter/example/list_view.dart';
-import 'package:exampleflutter/example/spacer_widget.dart';
-import 'package:exampleflutter/example/stack_widget.dart';
+import 'package:exampleflutter/example/app_bar.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -19,7 +13,7 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       title:"Latihan Flutter",
       debugShowCheckedModeBanner: false,
-      home:ExampleDraggable(),
+      home:AppBarIcons(),
     );
   }
 }
