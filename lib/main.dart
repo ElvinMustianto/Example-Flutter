@@ -1,4 +1,5 @@
-import 'package:exampleflutter/example/app_bar.dart';
+import 'package:exampleflutter/example/login_postion.dart';
+import 'package:exampleflutter/example/opacity.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       title:"Latihan Flutter",
       debugShowCheckedModeBanner: false,
-      home:AppBarIcons(),
+      home:ExampleLoginPage(),
     );
   }
 }
