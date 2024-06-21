@@ -63,6 +63,8 @@ flutter:
     - assets/one piece.png
     - assets/leaves.png
     - assets/sunset-3094078_960_720.jpg
+    - assets/twitter.png
+    - assets/facebook.png
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
