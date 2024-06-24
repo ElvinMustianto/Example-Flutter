@@ -1,7 +1,4 @@
-import 'package:exampleflutter/example/custom_appbar.dart';
-import 'package:exampleflutter/example/heroAnimation/page1.dart';
-import 'package:exampleflutter/example/login_postion.dart';
-import 'package:exampleflutter/example/tabbar.dart';
+import 'package:exampleflutter/example/qr_code.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -16,7 +13,7 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       title:"Latihan Flutter",
       debugShowCheckedModeBanner: false,
-      home:ExampleTabBar(),
+      home:ExampleQRCode(),
     );
   }
 }
