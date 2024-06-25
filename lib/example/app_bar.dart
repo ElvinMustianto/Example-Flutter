@@ -5,8 +5,7 @@ class AppBarIcons extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Scaffold(
+    return Scaffold(
         appBar: AppBar(
           leading: const Icon(Icons.adb, color: Colors.white),
           title: const Text(
@@ -36,7 +35,6 @@ class AppBarIcons extends StatelessWidget {
                     end: FractionalOffset.bottomRight)),
           ),
         ),
-      ),
-    );
+      );
   }
 }
