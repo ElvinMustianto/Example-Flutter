@@ -1,4 +1,8 @@
+import 'package:exampleflutter/example/app_bar.dart';
+import 'package:exampleflutter/example/colorsButton/main_page.dart';
+import 'package:exampleflutter/example/login_postion.dart';
 import 'package:exampleflutter/example/qr_code.dart';
+import 'package:exampleflutter/example/textField.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,7 +17,7 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       title:"Latihan Flutter",
       debugShowCheckedModeBanner: false,
-      home:ExampleQRCode(),
+      home:ExampleTextField(),
     );
   }
 }
